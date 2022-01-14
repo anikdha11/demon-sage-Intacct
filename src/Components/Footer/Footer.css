@@ -1,0 +1,35 @@
+.icon i{
+    border-radius: 16px;
+    padding: 12px;
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+.link a , h6{
+    text-decoration: none;
+    text-align: justify;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 400;
+}
+/* Hover effect */
+.link a:hover{
+color: red;
+}
+.fb:hover{
+    background-color: rgb(76, 119, 236);
+}
+.linkedin:hover{
+    background-color: rgba(41, 187, 231, 0.815);
+}
+.twitter:hover{
+    background-color: rgb(64, 227, 233);
+}
+.youtube:hover{
+    background-color: rgb(253, 15, 7);
+}
+.instagram:hover{
+    background-color: rgba(212, 23, 23, 0.925);
+}
+.google:hover{
+    background-color: rgb(183, 108, 226);
+}
