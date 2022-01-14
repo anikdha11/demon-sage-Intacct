@@ -65,10 +65,10 @@ const HomeSection2 = () => {
             </Slider>
 
             <div className='text-start ms-5 mb-5'>
-            <span className='mt-5 fw-normal border-bottom border-2 border-dark'>View all accounting and financials resources</span>
+                <span className='mt-5 fw-normal border-bottom border-2 border-dark'>View all accounting and financials resources</span>
             </div>
 
-            <hr style={{marginTop:'6rem'}} className='w-75 mx-auto' />
+            <hr style={{ marginTop: '6rem' }} className='w-75 mx-auto' />
             <p className='w-75 mx-auto'>1. Gartner, Inc., “Critical Capabilities for Cloud Core Financial Management Suites for Midsize, Large, and Global Enterprises”; Robert Anderson, John Van Decker, Greg Leiter; May 11, 2021 (ID: G00733936) (In the 2017 report Sage Intacct was recognized as “Intacct”)</p>
         </div>
     );

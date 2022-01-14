@@ -4,7 +4,7 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div style={{marginTop:"6rem"}}>
+        <div style={{ marginTop: "6rem" }}>
             <div className='d-flex justify-content-center mb-5 icon'>
                 <span> <i class="fab fa-facebook-f fb"></i></span>
                 <span><i class="fab fa-linkedin-in ms-2 me-2 linkedin"></i></span>
@@ -34,7 +34,7 @@ const Footer = () => {
                                 <a href="#Sage Transform">Community</a>
                                 <a href="#User Groups">Professional Services</a>
                             </div>
-                            <div  className='d-flex flex-column link ms-3'>
+                            <div className='d-flex flex-column link ms-3'>
                                 <h6>Products</h6>
                                 <a href="#contact">Contact</a>
                                 <a href="#Customer Meetups">Customer Meetups</a>
@@ -57,7 +57,7 @@ const Footer = () => {
                                 <a href="#User Groups">Considering MS Dynamics 365 Business Central?</a>
                                 <a href="#User Groups">Considering MS Dynamics GP?</a>
                             </div>
-                            <div  className='d-flex flex-column link ms-3'>
+                            <div className='d-flex flex-column link ms-3'>
                                 <h6>Partners</h6>
                                 <a href="#contact">ValueAdded-Resellers</a>
                                 <a href="#Customer Meetups">Outsourcing Partners</a>
@@ -111,10 +111,10 @@ const Footer = () => {
 
             <div className='d-flex justify-content-evenly mt-4'>
                 <span >
-                <span className='fw-bold me-4'> Also of Interest:</span>What is an ERP system?
+                    <span className='fw-bold me-4'> Also of Interest:</span>What is an ERP system?
                 </span>
                 <span>Inventory Management System</span>
-                <span>Purchase Order Software</span> 
+                <span>Purchase Order Software</span>
             </div>
             <div className='mt-2'>
                 <span>© Copyright 2022 Sage Intacct, Inc. | Privacy Policy | Cookie Notice | Responsible Disclosure | Customer Terms | Site Map</span>
