@@ -4,7 +4,7 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div>
+        <div style={{marginTop:"6rem"}}>
             <div className='d-flex justify-content-center mb-5 icon'>
                 <span> <i class="fab fa-facebook-f fb"></i></span>
                 <span><i class="fab fa-linkedin-in ms-2 me-2 linkedin"></i></span>
@@ -18,7 +18,7 @@ const Footer = () => {
                 <Row>
                     <Col sm={6} >
                         <div className='d-flex flex-wrap'>
-                            <div id='link' className='d-flex flex-column link'>
+                            <div className='d-flex flex-column link'>
                                 <h6>Products</h6>
                                 <a href="#contact">Core Financials</a>
                                 <a href="#Customer Meetups">Dashboard and Reporting</a>
@@ -27,14 +27,14 @@ const Footer = () => {
                                 <a href="#Recommend Sage Intacct">Sage Intacct Platform</a>
                                 <a href="#Free 30-day Trial"> Advanced Functionality</a>
                             </div>
-                            <div id='link' className='d-flex flex-column link ms-3'>
+                            <div className='d-flex flex-column link ms-3'>
                                 <h6>Services</h6>
                                 <a href="#contact">Support</a>
                                 <a href="#Customer Meetups">Training</a>
                                 <a href="#Sage Transform">Community</a>
                                 <a href="#User Groups">Professional Services</a>
                             </div>
-                            <div id='link' className='d-flex flex-column link ms-3'>
+                            <div  className='d-flex flex-column link ms-3'>
                                 <h6>Products</h6>
                                 <a href="#contact">Contact</a>
                                 <a href="#Customer Meetups">Customer Meetups</a>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className='d-flex flex-warp mt-4'>
-                            <div id='link' className='d-flex flex-column link'>
+                            <div className='d-flex flex-column link'>
                                 <h6>Why Sage Intacct</h6>
                                 <a href="#contact">Industries</a>
                                 <a href="#Customer Meetups"> Customer Case Studies</a>
@@ -57,14 +57,14 @@ const Footer = () => {
                                 <a href="#User Groups">Considering MS Dynamics 365 Business Central?</a>
                                 <a href="#User Groups">Considering MS Dynamics GP?</a>
                             </div>
-                            <div id='link' className='d-flex flex-column link ms-3'>
+                            <div  className='d-flex flex-column link ms-3'>
                                 <h6>Partners</h6>
                                 <a href="#contact">ValueAdded-Resellers</a>
                                 <a href="#Customer Meetups">Outsourcing Partners</a>
                                 <a href="#Sage Transform">Marketplace Partners</a>
                                 <a href="#User Groups"> Become a Partner</a>
                             </div>
-                            <div id='link' className='d-flex flex-column link ms-3'>
+                            <div className='d-flex flex-column link ms-3'>
                                 <h6>Company</h6>
                                 <a href="#contact">Careers</a>
                                 <a href="#Customer Meetups">About Us</a>
@@ -76,7 +76,7 @@ const Footer = () => {
 
                     </Col>
                     <Col sm={2}>
-                        <div id='link' className='d-flex flex-column link'>
+                        <div className='d-flex flex-column link'>
                             <h6>Quick Links</h6>
                             <a href="#contact">Contact</a>
                             <a href="#Customer Meetups">Customer Meetups</a>
@@ -106,10 +106,19 @@ const Footer = () => {
                             </div>
                         </div>
                     </Col>
-
-
                 </Row>
             </Container>
+
+            <div className='d-flex justify-content-evenly mt-4'>
+                <span >
+                <span className='fw-bold me-4'> Also of Interest:</span>What is an ERP system?
+                </span>
+                <span>Inventory Management System</span>
+                <span>Purchase Order Software</span> 
+            </div>
+            <div className='mt-2'>
+                <span>© Copyright 2022 Sage Intacct, Inc. | Privacy Policy | Cookie Notice | Responsible Disclosure | Customer Terms | Site Map</span>
+            </div>
 
         </div>
     );
